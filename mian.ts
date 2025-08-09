@@ -9,9 +9,9 @@ console.log("Orignal Array:");
 sorter.print(numbers)
 
 sorter.ascending(numbers);
-console.log("Bubble Sort Ascending:");
+console.log("Sort Ascending:");
 sorter.print(numbers);
 
 sorter.descending(numbers);
-console.log("Bubble Sort Descending:");
+console.log("Sort Descending:");
 sorter.print(numbers);
