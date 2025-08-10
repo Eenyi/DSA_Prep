@@ -1,9 +1,9 @@
 export class QuickSort {
     ascending(array: number[], start: number, end: number): number[] {
         if (start < end) {
-            let pivot: number = this.partition(array, start, end)
-            this.ascending(array, start, pivot - 1);
-            this.ascending(array, pivot + 1, end);
+            let pivotindex: number = this.partition(array, start, end)
+            this.ascending(array, start, pivotindex - 1);
+            this.ascending(array, pivotindex + 1, end);
         }
         return array;
     }
